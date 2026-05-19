@@ -51,3 +51,32 @@ Concatenation: Joining two or more strings together using the + operator.
 Repetition: Repeating a string multiple times using the * operator.
 Indexing: Accessing individual characters in a string using their index (position).
 Slicing: Extracting a portion of a string
+
+
+#String Methods
+Think of strings as text.
+
+
+ Methods are built-in tools or commands you can use to change or clean up that text automatically.
+ 
+ upper(): Changes all letters to UPPERCASE.
+ 
+ lower():Changes all letters to lowercase.
+  
+  strip(): Removes accidental spaces from the start and end of the text.
+  
+  replace(): Swaps an old word or letter for a new one.
+  
+  split(): Cuts a long sentence into a list of individual words
+
+
+
+  #Escape Sequences
+  
+  Sometimes you need to put invisible formatting or problematic characters inside your text. Because you cannot just type them normally, you use a backslash (\) followed by a letter. This acts as a secret code for Python.
+  
+  \n: Hits "Enter" to start a brand new line of text.
+  
+  \t: Hits the tab key to create a big jump or space.
+  
+  \' or \": Lets you print actual quotation marks inside text without confusing the computer.
