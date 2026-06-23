@@ -128,3 +128,10 @@ s: Formats a string.
 
 #The .format() Method (Legacy)
 While f-strings are the preferred method for string formatting, the .format() method is still used in older codebases. It provides similar functionality but with a different syntax.
+
+
+
+
+
+#if statements
+The if statement is the most basic form of conditional execution. It allows the execution of a block of code only if a certain condition is true. 
