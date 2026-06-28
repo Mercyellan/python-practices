@@ -54,7 +54,27 @@
 
         #while loops
         # Example: Printing numbers from 1 to 5 using a while loop
-count = 1
-while count <= 5:
-    print(count)
-    count += 1
+# count = 1
+
+
+
+# name = "mae"
+# for my in name:
+#     print (my)
+
+
+# for p in range(3,21,3):
+#     print (p)
+
+# else: print ("loop cannot continue")
+
+
+# Outer loop tracks the hours (0, 1, 2)
+for hour in range(3):
+    
+    # Inner loop tracks the minutes (0, 1, 2, 3)
+    for minute in range(4):
+        
+        # This prints the current time on the screen
+        print(f"Time is -> {hour}:{minute}")
+
