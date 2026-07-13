@@ -1,0 +1,29 @@
+# certifi==2026.6.17
+# charset-normalizer==3.4.9
+# idna==3.18
+# requests==2.34.2
+# urllib3==2.7.0
+
+
+
+# fetch_data.py
+import requests
+
+def fetch_data(url):
+    """Fetches data from the given URL using the requests library."""
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
+        return response.text
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching data: {e}")
+        return None
+
+if __name__ == "__main__":
+    url = "https://www.example.com" # replace with any URL
+    data = fetch_data(url)
+    if data:
+        print("Data fetched successfully!")
+        #print(data) # Uncomment to print the fetched data
+    else:
+        print("Failed to fetch data.")
